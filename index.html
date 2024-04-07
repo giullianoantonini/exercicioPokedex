@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <h1>TARGET TRUST</h1>
+    </header>
+
+    <main>
+
+        <div class="caixaBusca">
+            <input id="idPokemon" type="text" class="caixaBusca__input">
+            <button onclick="executar()" class="caixaBusca__botao">Buscar</button>
+            <div class="caixaBusca__validacao" id="validacao"></div>
+        </div>
+
+        <div class="pokedex">
+
+            <div class="pokedex__blue-led"></div>
+            <div class="pokedex__visor">
+                <img class="imagemPokemon" id="imagemPokemon" src="" alt="">
+            </div>
+            <div class="nomePokemon" id="nomePokemon">
+                Nome
+            </div>
+            <div class="tiposPokemon" id="tiposPokemon">
+                Tipos
+            </div>
+            <div class="golpesPokemon" id="golpesPokemon">
+                Golpes
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
